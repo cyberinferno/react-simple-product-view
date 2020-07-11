@@ -1,0 +1,168 @@
+body {
+  background-color: #DDD;
+  font-family: Calibri;
+}
+
+.gray {
+  color: gray;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.extreme-rounded-ele {
+  border-radius: 20px;
+}
+
+.recommended-heading {
+  font-weight: bold;
+  font-size: 28px;
+  color: rgba(0,0,0,1);
+}
+
+.custom-badge {
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.no-border-radius {
+  border-radius: 0;
+}
+
+.product-label {
+  position: absolute;
+  background-color: rgba(255,165,0,1);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2px 20px;
+  top: -10px;
+  left: 0;
+}
+
+.product-image {
+  padding: 15px;
+}
+
+.product-tag {
+  position: absolute;
+  top: 5%;
+  left: 70%;
+  height: 42%;
+}
+
+.product-main-heading {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: darkred;
+}
+
+.product-total {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn-quantity-change {
+  border-color: #eee;
+  color: black;
+  font-size: 16px;
+}
+
+.btn-add-to-cart {
+  background-color: rgba(255,165,0,1);
+  font-weight: bold;
+  border-radius: 30px;
+  float: right;
+}
+
+.btn-notify-me {
+  border: 2px solid rgba(255,165,0,1);
+  font-weight: bold;
+  border-radius: 30px;
+  float: right;
+}
+
+.responsive-btn-label {
+  position: relative;
+  top: -4px;
+}
+
+.product-lite-name {
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.lite-weight {
+  font-weight: 600;
+}
+
+.btn-load-more {
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.search-icon {
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgba(255,165,0,1);
+}
+
+@media screen and (max-width: 1050px) {
+  .product-tag {
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    height: 20%;
+  }
+
+  .btn-add-to-cart .fa-2x {
+    font-size: 1.5em;
+  }
+
+  .btn-notify-me .fa-2x {
+    font-size: 1.5em;
+  }
+
+  .responsive-btn-label {
+    position: relative;
+    top: -2px;
+  }
+
+  .btn-quantity-change {
+    padding: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-main-heading {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width : 576px) {
+  .small-card-container > .row {
+    overflow-x: auto;
+  }
+
+  .search-icon {
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+  }
+}
